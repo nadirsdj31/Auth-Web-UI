@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+     <head> <meta charset="utf-8"> 
+        <title>Login & Register</title>
+         <link rel="stylesheet" href="css/style.css" > 
+        </head> 
+        <body>
+          <div class="body">
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+            <div id="id01" class="modal">
+  
+                <form action="/action_page.php" method="post">
+                  <div >
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                   </div> 
+            <div class="login-box">
+                 <img src="image/logo simple.png" class="avatar" alt="Avatar Image"> 
+                 <h1>Login Here</h1> <form>  
+                    <label for="username">Username</label> 
+                    <input type="text" placeholder="Enter Username">  
+                    <label for="password">Password</label> <input type="password" placeholder="Enter Password" > 
+                    <input type="submit" value="Log In"> <a href="#">Lost your Password?</a><br>
+                     <a href="#">Don't have An account?</a>
+                     </form> 
+                    </div>
+            </div>
+          
+            <button class="botona" onclick="document.getElementById('id1').style.display='block'" style="width:auto;">Register</button>
+            <div id="id1" class="modal">
+  
+                <form action="/action_page.php" method="post">
+                  <div >
+                    <span onclick="document.getElementById('id1').style.display='none'" class="close" title="Close Modal">&times;</span>
+                   </div> 
+            <div class="Register-box">
+                 <img src="image/logo simple.png" class="avatar" alt="Avatar Image"> 
+                 <h1>Register Here</h1> <form>  
+                    <label for="username">Username</label> 
+                    <input type="text" placeholder="Enter username ">  
+                    <label for="email">Email</label> <input type="text" placeholder="Enter your email" > 
+                    <label for="password">Password</label> <input type="password" placeholder="Enter your password" >  
+                    <label for="confirmation of password">Confirmation of password</label><input type="password" placeholder="confirmation of password">      
+                    <label for="sex">Sex</label>
+                    <div class="side-by-side">
+                      <p>Men<input type="checkbox" checked="none" name="sameadr"></p>
+                      <p>Women<input type="checkbox" checked="none" name="sameadr"></p>
+                  </div>
+                    <label for="university" >University</label> <input type="text" placeholder="university">
+                    <label for="faculty" >Faculty</label> <input type="text" placeholder="faculty">
+                    
+                    
+                    
+                    <input type="submit" value="Rigester"> 
+                     </form> 
+            </div>
+            </div>
+
+          </div>
+                 
+        </body>
+</html>

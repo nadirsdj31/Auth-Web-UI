@@ -1,0 +1,236 @@
+
+    body,html {
+        background-image: url("../image/54436906_1063377833864278_2522533206037626880_o.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100%;
+        margin: 0;
+    }
+button {
+    background-color: rgba(255, 255, 255, 0.295);
+    color: rgb(255, 255, 255);
+    padding: 20px 45px;
+    width: 150%;
+    left: 18%;
+    top: 3%;
+    position: absolute; 
+}
+.login-box { 
+    width: 500px;
+    height: 420px;
+    background: rgba(25, 132, 204, 0.678); 
+    color: #fff; 
+    top: 50%; 
+    left: 50%; 
+    position: absolute; 
+    transform: translate(-50%, -50%); 
+    box-sizing: border-box; 
+    padding: 70px 30px;
+}
+.login-box .avatar { 
+    width: 200px; 
+    height: 100px;
+    border-radius: 50%; 
+    position: absolute; 
+    top: -30px; 
+    left: 30%
+} 
+.login-box h1 { 
+    margin: 0; 
+    padding: 0 0 20px; 
+    text-align: center; 
+    font-size: 22px;
+} 
+.login-box label { 
+    margin: 0; 
+    padding: 0; 
+    font-weight: bold; 
+    display: block;
+} 
+.login-box input { 
+    width: 100%; 
+    margin-bottom: 20px;
+} 
+.login-box input[type="text"], 
+.login-box input[type="password"] 
+{ 
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255); 
+    background: transparent; 
+    outline: none; 
+    height: 40px; 
+    color: rgb(255, 255, 255); 
+    font-size: 16px;
+} 
+.login-box input[type="submit"] { 
+    border: none; 
+    outline: none; 
+    height: 40px; 
+    background: #13475f; 
+    color: #fff; 
+    font-size: 18px; 
+    border-radius: 20px;
+} 
+.login-box input[type="submit"]:hover { 
+    cursor: pointer; 
+    background: #1f068f; 
+    color: rgb(250, 249, 250);
+} 
+.login-box a {
+     text-decoration: none; 
+     font-size: 13px; 
+     line-height: 20px; 
+     color: rgb(255, 255, 255);
+    } 
+    .login-box a:hover {
+         color: rgb(189, 5, 5);
+    }
+.modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgb(0,0,0); 
+            background-color: rgba(0,0,0,0.4); 
+            padding-top: 60px;
+          }
+
+
+
+.botona{
+
+    background-color: rgba(255, 255, 255, 0.295);
+    color: rgb(255, 255, 255);
+    padding: 20px 45px;
+    width: 100%;
+    left: 75%;
+    top: 3%;
+    position: absolute;
+}
+img.avatar {
+    width: 150%;
+    border-radius: 100%;
+  }
+  
+.Register-box {
+    width: 500px;
+    height: 830px;
+    background: rgba(25, 132, 204, 0.678); 
+    color: #fff; 
+    top: 75%; 
+    left: 50%; 
+    position: absolute; 
+    transform: translate(-50%, -50%); 
+    box-sizing: border-box; 
+    padding: 70px 30px;
+}
+.Register-box .avatar { 
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; 
+    position: absolute; 
+    top: -50px; 
+    left: calc(50% - 50px);
+} 
+.Register-box h1 { 
+    margin: 0; 
+    padding: 0 0 20px; 
+    text-align: center; 
+    font-size: 22px;
+} 
+.Register-box label { 
+    margin: 0; 
+    padding: 0; 
+    font-weight: bold; 
+    display: block;
+} 
+.Register-box input { 
+    width: 100%; 
+    margin-bottom: 20px;
+} 
+.Register-box input[type="text"], 
+.Register-box input[type="password"] 
+{ 
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255); 
+    background: transparent; 
+    outline: none; 
+    height: 40px; 
+    color: rgb(255, 255, 255); 
+    font-size: 16px;
+} 
+.Register-box input[type="submit"] { 
+    border: none; 
+    outline: none; 
+    height: 40px; 
+    background: #13475f; 
+    color: #fff; 
+    font-size: 18px; 
+    border-radius: 20px;
+} 
+.Register-box input[type="submit"]:hover { 
+    cursor: pointer; 
+    background: #0749ff; 
+    color: rgb(250, 249, 250);
+} 
+.Register-box a {
+     text-decoration: none; 
+     font-size: 12px; 
+     line-height: 20px; 
+     color: rgb(255, 255, 255);
+    } 
+    .Register-box a:hover {
+         color: rgb(189, 5, 5);
+    }
+
+    .side-by-side {
+        display: flex;
+        justify-content: space-between;  
+    }
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
